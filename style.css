@@ -1,0 +1,65 @@
+/* ----  Header ---*/
+header,nav,ul{
+  display: flex;
+  align-items: center;
+}
+header{
+  padding: 20px 80px;  
+  /* padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 80px;
+  padding-right: 80px; */
+  /* padding: 20px 80px 20px 80px; */
+  background-color:rgba(0, 0, 255, 0.098);
+  justify-content: space-between;
+}
+header nav{
+   gap:20px;
+}
+nav ul{
+  gap:11px;
+  list-style:none;
+}
+nav ul li  a{
+  text-decoration: none;
+}
+
+/* ----  Hero section ---*/
+.hero-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 4rem 10%;
+  min-height: calc(100vh - 300px);
+}
+.hero-left img{
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0 10px 10px #be9696;
+  animation: mvt ease-in-out 3s infinite alternate;
+}
+
+@keyframes mvt {
+    0%{
+      transform: translateY(0);
+    }
+    100%{
+      transform: translateY(-15%);
+    }
+}
+
+
+
+
+
+/* ----   About ---*/
+
+
+
+
+/* ----  Projects ---*/
+
+.list-progect{
+ display: flex;
+}
