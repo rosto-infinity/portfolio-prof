@@ -63,3 +63,15 @@ nav ul li  a{
 .list-progect{
  display: flex;
 }
+
+
+/* Responsive design */
+@media( max-width : 750px ){
+  .navbar{
+    display: none;
+  }
+
+  .hero-section{
+    flex-direction: column;
+  }
+}
